@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tesis"
+version = "0.1.0"
+description = "Repository for testing my thesis code"
+authors = ["Alfonso Toriz Vazquez <atoriz98@comunidad.unam.mx>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+numpy = "1.25.2"
+matplotlib = "3.7.2"
+seaborn = "0.12.2"
+pandas = "2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
