@@ -1,6 +1,6 @@
 '''
 File: example_3_alpha_beta_gamma_filter.py
-Project: example_3
+Project: example_4
 File Created: Tuesday, 22nd August 2023 10:03:25 pm
 Author: Alfonso Toriz Vazquez (atoriz98@comunidad.unam.mx)
 -----
@@ -9,12 +9,13 @@ Modified By: Alfonso Toriz Vazquez (atoriz98@comunidad.unam.mx>)
 -----
 License: MIT License
 -----
-Description: 
+Description: Estimates an aircraft position, velocity and acceleration
+using the state extrapolation and state update equations along with an
+alpha beta gamma filter.
 '''
-#TODO - CHECK EQUATIONS AND FUNCTIONS CALLS, THERE IS AN ERROR ON THE GRAPHS
 
 # ---------------------------------------------------------------------------- #
-# NOTE                          PROBLEM DESCRIPTION                            #
+#                               PROBLEM DESCRIPTION                            #
 # ---------------------------------------------------------------------------- #
 #                                                                              #
 #      Now we will track an aircraft that moves at a constant velocity of      #
